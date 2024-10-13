@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <h5>Projeto desenvolvido por Elielson Nascimento - React</h5>
+      <p>Projeto desenvolvido por Elielson Nascimento - React</p>
     </footer>
   )
 }
