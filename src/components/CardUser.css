@@ -1,0 +1,59 @@
+.CardUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #417cea;
+    border-radius: 2rem;
+    margin: 0.5rem;
+}
+
+.CardUser img {
+    width: 200px;
+    border: 2px solid #0d56df;
+    border-radius: 50%;
+}
+
+.div-follow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.follow {
+    background-color: #05183c;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 0.5rem;
+}
+
+.div-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.user-name {
+    color: #0d56df;
+}
+
+.div-link {
+    display: flex;
+    align-items: center;
+}
+
+.link-repository {
+    background-color: #05183c;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+.link-repository:hover {
+    background-color: #ffffff;
+    color: #417cea;
+    transition-duration: 1s;
+}

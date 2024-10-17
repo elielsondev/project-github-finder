@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  color: #FFF;
+  color: #ffffff;
 }
 
 body {
-  background-color: #00118e;
+  background-color: #05183c;
   padding: 2rem;
 }
 
@@ -17,4 +17,20 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.App {
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.App h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.not-found {
+  text-align: center;
+  margin-top: 45%;
 }

@@ -1,0 +1,60 @@
+.Repository {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 200px;
+    margin-left: -40%;
+}
+
+.repository-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    padding: 0.5rem;
+    margin-left: -100px;
+    background-color: 417cea;
+    border-radius: 2rem;
+    margin: 0.5rem;
+}
+
+.link-repository {
+    display: flex;
+    background-color: #0d56df;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+.link-repository:hover {
+    background-color: #ffffff;
+    color: #05183c;
+    font-weight: 700;
+    transition-duration: 1s;
+}
+
+.link-back-page {
+    display: flex;
+    background-color: #0d56df;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-left: 420px;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 5%;
+    text-align: center;
+}

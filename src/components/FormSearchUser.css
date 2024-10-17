@@ -1,0 +1,32 @@
+.FormSearchUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0d56df;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-top: 5px;
+}
+
+.FormSearchUser div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.FormSearchUser input, button {
+  padding: 0.6rem;
+  border-radius: 3px;
+  border: none;
+  color: #0d56df;
+}
+
+.FormSearchUser button {
+    background-color: #05183c;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-input-button {
+  margin-top: 0.5rem;
+}
