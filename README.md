@@ -1,50 +1,68 @@
-# React + TypeScript + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao GitHub Finder! Este projeto foi desenvolvido em React e permite que os usuários busquem perfis do GitHub. Ao encontrar um usuário, você poderá visualizar os repositórios associados a esse perfil. O projeto utiliza o React Router DOM para facilitar a navegação entre as diferentes páginas e React Icons para adicionar ícones atraentes à interface.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **React**: Biblioteca JavaScript para construir interfaces de usuário.
+* **React Router DOM**: Biblioteca para gerenciamento de rotas em aplicativos React.
+* **React Icons**: Conjunto de ícones para integração fácil com projetos React.
+* **GitHub API**: API do GitHub para busca de usuários e repositórios.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Busca de usuários do GitHub: Encontre perfis usando o nome de usuário.
+Visualização de repositórios: Veja os repositórios que pertencem ao usuário encontrado.
 
-- Configure the top-level `parserOptions` property like this:
+* Navegação entre páginas: Utilize o React Router DOM para navegar de forma simples e eficiente.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+* Ícones personalizados: Use React Icons para enriquecer a interface do usuário.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Como Executar o Projeto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone o repositório:
+bash
+```git clone https://github.com/seu-usuario/github-finder.git```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+2. Navegue até o diretório do projeto:
+bash
+```cd github-finder```  
+
+3. Instale as dependências:
+bash
+```npm install```  
+
+4. Execute o projeto:
+bash
+```npm start```  
+
+### Acesso
+
+Após a execução do projeto, você pode acessá-lo no seu navegador pelo endereço: ```http://localhost:5173```
+Obs.: A porta pode variar.
+
+## Estrutura do Projeto
+
+github-finder/  
+├── public/  
+├── src/  
+│   ├── components/  
+│   ├── pages/  
+│   ├── App.js  
+│   ├── main.js  
+├── package.json  
+└── README.md
+
+## Contribuição
+
+Sinta-se à vontade para contribuir com o projeto! Você pode fazer isso enviando um Pull Request ou abrindo uma nova issue.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+## Contato
+
+Para qualquer dúvida ou sugestão, entre em contato pelo e-mail: <nascimento.elielson@gmail.com>.
+
+Esperamos que você aproveite o GitHub Finder! Sinta-se à vontade para explorar e modificar o projeto como preferir.
