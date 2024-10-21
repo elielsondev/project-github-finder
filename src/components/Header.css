@@ -1,11 +1,24 @@
 .Header {
   display: flex;
+  width: 100%;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   margin-top: -2rem;
 }
 
-.Header img {
-  width: 70px;
+@media only screen and (max-width: 767px) {
+  .Header {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Header {
+    display: flex;
+    justify-content: center;
+    width: 650px;
+  }
 }
