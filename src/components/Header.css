@@ -11,14 +11,17 @@
   .Header {
     display: flex;
     justify-content: center;
-    width: 550px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 500px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 590px) {
   .Header {
     display: flex;
     justify-content: center;
-    width: 650px;
+    width: 100%;
   }
 }

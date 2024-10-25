@@ -61,6 +61,7 @@
 
 @media only screen and (max-width: 767px) {
     .Repository {
+        align-items: center;
         width: 767px;
         height: 150px;
         margin-left: -20%;
