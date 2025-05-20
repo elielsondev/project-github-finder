@@ -30,6 +30,7 @@ function FormSearchUser({ loadUser }: SearchProps) {
 
       <div className="search-input-button">
         <input
+          id="search-input"
           type="text"
           placeholder="ex.: elielsondev"
           value={userName}

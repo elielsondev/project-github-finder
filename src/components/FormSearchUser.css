@@ -13,7 +13,8 @@
   gap: 0.5rem;
 }
 
-.FormSearchUser input, button {
+.FormSearchUser input,
+button {
   padding: 0.6rem;
   border-radius: 3px;
   border: none;
@@ -21,12 +22,32 @@
 }
 
 .FormSearchUser button {
-    background-color: #05183c;
-    border-radius: 50%;
-    padding: 10px;
-    cursor: pointer;
+  background-color: #05183c;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .search-input-button {
   margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 300px) {
+  .FormSearchUser div {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .FormSearchUser input,
+  button {
+    width:auto;
+  }
+
+  .search-input-button {
+    margin-top: 0.5rem;
+  }
+
+  #search-input {
+    width: 120px;
+  }
 }
