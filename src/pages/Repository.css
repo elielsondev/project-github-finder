@@ -1,33 +1,29 @@
-.Repository {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    flex-wrap: wrap;
-    width: 900px;
-    height: 200px;
-    margin-left: -40%;
+.Repository{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
 }
 
 .repository-cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     text-align: center;
-    width: 25%;
-    height: auto;
-    padding: 0.5rem;
-    margin-left: -100px;
-    background-color: 417cea;
-    border-radius: 2rem;
-    margin: 0.5rem;
+    max-width: 250px;
+    max-height: 400px;
+    padding: 1.5rem;
+    margin: 1rem;
+    overflow: auto;
+    background-color: #417cea10;
+    border-radius: 0.5rem;
 }
 
 .link-repository {
@@ -45,29 +41,13 @@
 }
 
 .link-back-page {
-    display: flex;
     background-color: #0d56df;
-    padding: 1rem 2rem;
+    padding: 0.5rem;
     border-radius: 20px;
-    margin-bottom: 50px;
-    margin-left: 420px;
-    justify-content: center;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 5%;
-    text-align: center;
 }
 
-@media only screen and (max-width: 767px) {
-    .Repository {
-        align-items: center;
-        width: 767px;
-        height: 150px;
-        margin-left: -20%;
-    }
-
-    .link-back-page {
-        margin-left: 355px;
-    }
+@media only screen and (max-width: 385px) {
+  .card {
+    font-size: small;
+  }
 }

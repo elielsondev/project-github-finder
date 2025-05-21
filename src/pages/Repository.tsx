@@ -33,7 +33,7 @@ function Repository() {
         ))}
       </div>
         <br />
-      <div>
+      <div id="back">
         <Link to="/" className="link-back-page">
           Voltar
         </Link>
